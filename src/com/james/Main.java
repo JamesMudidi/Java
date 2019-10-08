@@ -6,7 +6,7 @@ import java.time.format.DateTimeFormatter;
 public class Main {
 
     public static void main(final String[] args) {
-        final DateTimeFormatter dtf = DateTimeFormatter.ofPattern("h:mm:ss a 'on' MM d, yyyy'.'");
+        final DateTimeFormatter dtf = DateTimeFormatter.ofPattern("h:mm:ss a 'on' mm dd, yyyy'.'");
         final LocalDateTime now = LocalDateTime.now();
 
         System.out.println("Hello World");
